@@ -79,9 +79,9 @@ class AdminTranslationsInstall extends Command
         // webpack
         $this->strReplaceInFile(
             'webpack.mix.js',
-            '|vendor/brackets/admin-translations|',
+            '|vendor/craftable/admin-translations|',
             '// Do not delete this comment, it\'s used for auto-generation :)',
-            'path.resolve(__dirname, \'vendor/brackets/admin-translations/resources/assets/js\'),
+            'path.resolve(__dirname, \'vendor/craftable/admin-translations/resources/assets/js\'),
 				// Do not delete this comment, it\'s used for auto-generation :)');
 
         $this->info('Admin Translation assets registered');
