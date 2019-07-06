@@ -1,6 +1,6 @@
 {
     "name": "craftable/admin-translations",
-    "description": "Translation manager for brackets/admin-ui",
+    "description": "Translation manager for craftable/admin-ui",
     "keywords": [
         "translations",
         "localizations",

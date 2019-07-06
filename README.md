@@ -6,7 +6,7 @@ Admin Translations is a translation manager package. It scans your codebase and 
 
 ![Admin Translations edit form](https://docs.getcraftable.com/assets/admin-translations-2.png "Admin Translations edit form")
 
-This packages is part of [Craftable](https://github.com/BRACKETS-by-TRIAD/craftable) (`brackets/craftable`) - an administration starter kit for Laravel 5. You should definitely have a look :)
+This packages is part of [Craftable](https://github.com/BRACKETS-by-TRIAD/craftable) (`craftable/craftable`) - an administration starter kit for Laravel 5. You should definitely have a look :)
 
 You can find full documentation at https://docs.getcraftable.com/#/admin-translations
 
