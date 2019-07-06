@@ -29,9 +29,9 @@ class TranslationsExport implements FromCollection, WithMapping, WithHeadings
     public function headings(): array
     {
         $headings = [
-            trans('brackets/admin-translations::admin.fields.namespace'),
-            trans('brackets/admin-translations::admin.fields.group'),
-            trans('brackets/admin-translations::admin.fields.default'),
+            trans('craftable/admin-translations::admin.fields.namespace'),
+            trans('craftable/admin-translations::admin.fields.group'),
+            trans('craftable/admin-translations::admin.fields.default'),
         ];
 
         $this->exportLanguages->each(function($language) use(&$headings) {

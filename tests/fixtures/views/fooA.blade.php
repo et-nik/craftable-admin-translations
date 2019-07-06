@@ -4,7 +4,7 @@ In this file, there are couple of translated keys
 {{ trans("good.key2") }}
 {{ trans("good.key6 with a space") }}
 {{ trans("admin::auth.key7") }}
-{{ trans("brackets/admin-ui::auth.key8") }}
+{{ trans("craftable/admin-ui::auth.key8") }}
 
 {{ __("Good key 3") }}
 {{ __("Good 'key' 4") }}

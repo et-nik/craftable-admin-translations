@@ -21,7 +21,7 @@ class AdminTranslationsInstall extends Command
      *
      * @var string
      */
-    protected $description = 'Install a brackets/admin-translations package';
+    protected $description = 'Install a craftable/admin-translations package';
 
     /**
      * Execute the console command.
@@ -30,7 +30,7 @@ class AdminTranslationsInstall extends Command
      */
     public function handle()
     {
-        $this->info('Installing package brackets/admin-translations');
+        $this->info('Installing package craftable/admin-translations');
 
         $this->call('admin-ui:install');
 
@@ -54,7 +54,7 @@ class AdminTranslationsInstall extends Command
 
         $this->call('migrate');
 
-        $this->info('Package brackets/admin-translations installed');
+        $this->info('Package craftable/admin-translations installed');
     }
 
     private function strReplaceInFile($fileName, $ifExistsRegex, $find, $replaceWith) {

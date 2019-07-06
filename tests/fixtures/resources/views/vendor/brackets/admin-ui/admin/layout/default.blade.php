@@ -1,4 +1,4 @@
-@extends('brackets/admin-ui::admin.layout.master')
+@extends('craftable/admin-ui::admin.layout.master')
 
 @section('header')
 @endsection

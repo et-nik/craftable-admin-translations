@@ -36,7 +36,7 @@ class TranslationsAdminListingResponse implements Responsable
             return ['data' => $this->data, 'locales' => $locales];
         }
 
-        return view('brackets/admin-translations::admin.translation.index', [
+        return view('craftable/admin-translations::admin.translation.index', [
             'data' => $this->data,
             'locales' => $locales,
             'groups' => $this->getUsedGroups(),
